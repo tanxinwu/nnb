@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BaseController {
 
 
-    @PostMapping("test")
+    @PostMapping("test324234")
     public String test(){
         return "testjson";
     }
