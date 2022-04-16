@@ -13,8 +13,10 @@ public class BaseController {
     }
 
 
-    @GetMapping()
-    public String getTest(){
+    @GetMapping("/{id}")
+    public String getTest(@PathVariable("id") Integer id){
+        System.out.println(   );
+
         return "";
     }
 
